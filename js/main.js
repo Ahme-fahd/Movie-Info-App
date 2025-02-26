@@ -114,23 +114,23 @@ for(let i=0;i<movies.length;i++){
 
     const movieCard=`
 
-    <div class="col-md-2">
-    <div class="card">
-    <img src="https://image.tmdb.org/t/p/w500${posterPath}" class="card-img-top mb-3" alt="${movie.title}">
-    <div class="card-body">
+    <div class="col-md-3 mb-4">
+    <div class="card shadow-lg border-0"">
+        <img src="https://image.tmdb.org/t/p/w500${posterPath}" class="card-img-top rounded" alt="${movie.title}">
+    <div class="card-body text-center">
     
-        <h5 class="card-title">${movie.title}</h5>
-        <p class="card-text">${movie.release_date}</p>
-    
-    
-    
-    </div>
+             <h5 class="card-title fw-bold">${movie.title}</h5>
+            <p class="card-text text-muted">${movie.release_date}</p>
     
     
     </div>
     
     
     </div>
+    
+    
+    </div>
+    
     
     
     
